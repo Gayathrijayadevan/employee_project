@@ -35,7 +35,7 @@
 // export default App
 
 import React from "react";
-// import AddDetails from './component/AddDetails';
+import AddDetails from './component/AddDetails';
 import TaskList from "./component/TaskList";
 
 function App() {
@@ -43,7 +43,7 @@ function App() {
     <div className="App">
       <h1>Employee Management App</h1>
       <TaskList/>
-      {/* <AddDetails/> */}
+      <AddDetails/>
     </div>
   );
 }
